@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.22:1", "", "Mixed Reality", "EARoot/EA1/EA3/EA3/EA22/EA1183.html", "175.png", "109", "0", "", "Logical diagram0","{9872403D-9957-4d6f-83E0-2E781083A492}");
+tocTab[tocTab.length] = new Array("0.1.3.3.22:2", "", "«Image» Remote Rendering", "EARoot/EA1/EA3/EA3/EA22/EA1186.html", "82.png", "E1608", "0", "", "Artifact0","{0B15BA40-F1F1-4a66-A549-1E0F07480A02}");
+tocTab[tocTab.length] = new Array("0.1.3.3.22:3", "", "«Image» Spatial Anchor Accounts", "EARoot/EA1/EA3/EA3/EA22/EA1187.html", "82.png", "E1609", "0", "", "Artifact0","{DC2E0202-601A-442e-8B6A-816E1381DB07}");

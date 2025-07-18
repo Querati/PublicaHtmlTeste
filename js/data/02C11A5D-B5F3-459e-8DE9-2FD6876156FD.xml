@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.25:1", "", "Satellite", "EARoot/EA1/EA3/EA4/EA25/EA2187.html", "175.png", "57", "0", "", "Logical diagram0","{2241E7EA-C83B-4cec-8EA5-E0013B45B7FD}");
+tocTab[tocTab.length] = new Array("0.1.3.4.25:2", "", "«Image» Satellite Category", "EARoot/EA1/EA3/EA4/EA25/EA2191.html", "82.png", "E731", "0", "", "Artifact0","{46380FD8-0D99-4a6d-9CA2-9A3BA9FB53D6}");
+tocTab[tocTab.length] = new Array("0.1.3.4.25.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA25/EA1/EA2192.html", "4.png", "", "", "{DDAA68F9-80AD-4aee-A19E-E2F6EC213CD9}", "Package");

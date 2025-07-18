@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2:1", "", "«Image» Amazon Rekognition Image", "EARoot/EA1/EA3/EA4/EA17/EA2/EA1997.html", "82.png", "E576", "0", "", "Artifact0","{8919A24D-D619-44a0-88CA-C876486457D5}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2:2", "", "«Image» Amazon Rekognition Video", "EARoot/EA1/EA3/EA4/EA17/EA2/EA1998.html", "82.png", "E574", "0", "", "Artifact0","{169FD46D-79D0-4f9c-8BC7-D56A2FB2891B}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2:3", "", "«Image» Model", "EARoot/EA1/EA3/EA4/EA17/EA2/EA1999.html", "82.png", "E575", "0", "", "Artifact0","{6B5B4484-7B09-4d33-8186-2A0CD729B4FE}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2:4", "", "«Image» Notebook", "EARoot/EA1/EA3/EA4/EA17/EA2/EA2000.html", "82.png", "E577", "0", "", "Artifact0","{AB932822-3E0D-4610-9775-22C7CB586839}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2:5", "", "«Image» Train", "EARoot/EA1/EA3/EA4/EA17/EA2/EA2001.html", "82.png", "E578", "0", "", "Artifact0","{C09B51E6-9E5E-437e-A0FA-F6F971321F0E}");

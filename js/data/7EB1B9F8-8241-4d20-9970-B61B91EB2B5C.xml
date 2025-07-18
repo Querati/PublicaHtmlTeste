@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15:1", "", "Management and Governance", "EARoot/EA1/EA3/EA3/EA1/EA15/EA668.html", "175.png", "83", "0", "", "Logical diagram0","{E85C1353-5068-4298-A2F3-6E584BD4C40C}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15:2", "", "«Image» Guest Assignments", "EARoot/EA1/EA3/EA3/EA1/EA15/EA671.html", "82.png", "E1183", "0", "", "Artifact0","{0293ECCB-8FB6-4dd2-B265-3B92735CC50F}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15:3", "", "«Image» Managed Applications", "EARoot/EA1/EA3/EA3/EA1/EA15/EA672.html", "82.png", "E1185", "0", "", "Artifact0","{F4639499-2E57-4e99-B091-F7D9BA16826E}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15:4", "", "«Image» Network Watcher", "EARoot/EA1/EA3/EA3/EA1/EA15/EA674.html", "82.png", "E1184", "0", "", "Artifact0","{A6BFBC5A-6CA2-4366-A219-D2CD53F44318}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1", "1", "Media", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA677.html", "4.png", "", "", "{3BA5E615-B2DB-4af4-A783-37BAF3CD0DB5}", "Package");
