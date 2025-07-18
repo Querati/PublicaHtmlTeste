@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.15:1", "", "Game Development", "EARoot/EA1/EA3/EA4/EA15/EA1885.htm", "175.png", "46", "0", "", "Logical diagram0","{AA8F4B29-C326-4cb4-9455-1AB1ACE8A0C9}");
-tocTab[tocTab.length] = new Array("0.1.3.4.15:2", "", "«Image» Game Tech Category", "EARoot/EA1/EA3/EA4/EA15/EA1888.htm", "82.png", "E479", "0", "", "Artifact0","{910960B9-5AD9-4731-928D-072A3DF3AC8E}");
-tocTab[tocTab.length] = new Array("0.1.3.4.15.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA15/EA1/EA1890.htm", "4.png", "", "", "{96BBBCF5-DFF2-4821-86FB-5F75C9BFC5D0}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.15:1", "", "Game Development", "EARoot/EA1/EA3/EA4/EA15/EA1885.html", "175.png", "46", "0", "", "Logical diagram0","{AA8F4B29-C326-4cb4-9455-1AB1ACE8A0C9}");
+tocTab[tocTab.length] = new Array("0.1.3.4.15:2", "", "«Image» Game Tech Category", "EARoot/EA1/EA3/EA4/EA15/EA1888.html", "82.png", "E479", "0", "", "Artifact0","{910960B9-5AD9-4731-928D-072A3DF3AC8E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.15.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA15/EA1/EA1890.html", "4.png", "", "", "{96BBBCF5-DFF2-4821-86FB-5F75C9BFC5D0}", "Package");

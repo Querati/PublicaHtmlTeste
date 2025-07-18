@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.1.6:1", "", "Modelo de Referência Técnica TRM", "EARoot/EA1/EA1/EA6/EA99.htm", "175.png", "8", "0", "", "Logical diagram0","{E6663BA6-69BA-466a-A593-2E0D4DD27A84}");
-tocTab[tocTab.length] = new Array("0.1.1.6:2", "", "Modelo de Referência Técnica TRM", "EARoot/EA1/EA1/EA6/EA101.htm", "175.png", "130", "0", "", "Logical diagram0","{02439901-32A2-43ed-AAD7-864346FD9E12}");
-tocTab[tocTab.length] = new Array("0.1.1.6.1", "1", "Cloud", "EARoot/EA1/EA1/EA6/EA1/EA106.htm", "4.png", "", "", "{43FB6A23-DE60-424a-BB6A-96409F015484}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.6.2", "", "On-premisses", "EARoot/EA1/EA1/EA6/EA2/EA123.htm", "4.png", "", "", "{76AD303E-736B-4eac-8DCC-E7B7166C0C6F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6:1", "", "Modelo de Referência Técnica TRM", "EARoot/EA1/EA1/EA6/EA99.html", "175.png", "8", "0", "", "Logical diagram0","{E6663BA6-69BA-466a-A593-2E0D4DD27A84}");
+tocTab[tocTab.length] = new Array("0.1.1.6:2", "", "Modelo de Referência Técnica TRM", "EARoot/EA1/EA1/EA6/EA101.html", "175.png", "130", "0", "", "Logical diagram0","{02439901-32A2-43ed-AAD7-864346FD9E12}");
+tocTab[tocTab.length] = new Array("0.1.1.6.1", "1", "Cloud", "EARoot/EA1/EA1/EA6/EA1/EA106.html", "4.png", "", "", "{43FB6A23-DE60-424a-BB6A-96409F015484}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6.2", "", "On-premisses", "EARoot/EA1/EA1/EA6/EA2/EA123.html", "4.png", "", "", "{76AD303E-736B-4eac-8DCC-E7B7166C0C6F}", "Package");

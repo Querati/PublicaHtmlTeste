@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.13:1", "", "Intune", "EARoot/EA1/EA3/EA3/EA1/EA13/EA656.htm", "175.png", "81", "0", "", "Logical diagram0","{7A8CC604-52E5-42e5-B1EB-E18BE57CF93F}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.13:2", "", "«Image» Dedicated Event Hub", "EARoot/EA1/EA3/EA3/EA1/EA13/EA659.htm", "82.png", "E1178", "0", "", "Artifact0","{A4934385-50AC-4b8a-BFBE-55B974DC817F}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.13:3", "", "«Image» Enrollment", "EARoot/EA1/EA3/EA3/EA1/EA13/EA660.htm", "82.png", "E1176", "0", "", "Artifact0","{6526DC12-3F0A-4780-A504-7EDF9786DE2D}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.13:4", "", "«Image» Exchange On-Premises Access", "EARoot/EA1/EA3/EA3/EA1/EA13/EA661.htm", "82.png", "E1179", "0", "", "Artifact0","{DE259CF8-3CDA-48f6-A1A1-D1E97D87386C}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.13:5", "", "«Image» Tools", "EARoot/EA1/EA3/EA3/EA1/EA13/EA662.htm", "82.png", "E1177", "0", "", "Artifact0","{71BD1E96-FAE9-4593-928E-208DFFC606A3}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.13:1", "", "Intune", "EARoot/EA1/EA3/EA3/EA1/EA13/EA656.html", "175.png", "81", "0", "", "Logical diagram0","{7A8CC604-52E5-42e5-B1EB-E18BE57CF93F}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.13:2", "", "«Image» Dedicated Event Hub", "EARoot/EA1/EA3/EA3/EA1/EA13/EA659.html", "82.png", "E1178", "0", "", "Artifact0","{A4934385-50AC-4b8a-BFBE-55B974DC817F}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.13:3", "", "«Image» Enrollment", "EARoot/EA1/EA3/EA3/EA1/EA13/EA660.html", "82.png", "E1176", "0", "", "Artifact0","{6526DC12-3F0A-4780-A504-7EDF9786DE2D}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.13:4", "", "«Image» Exchange On-Premises Access", "EARoot/EA1/EA3/EA3/EA1/EA13/EA661.html", "82.png", "E1179", "0", "", "Artifact0","{DE259CF8-3CDA-48f6-A1A1-D1E97D87386C}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.13:5", "", "«Image» Tools", "EARoot/EA1/EA3/EA3/EA1/EA13/EA662.html", "82.png", "E1177", "0", "", "Artifact0","{71BD1E96-FAE9-4593-928E-208DFFC606A3}");

@@ -1,6 +1,6 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:1", "", "«Image» S3 Glacier", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2248.htm", "82.png", "E779", "0", "", "Artifact0","{7ABC83AF-A384-4dee-87E7-5DD115BDEF13}");
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:2", "", "«Image» S3 Glacier Deep Archive", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2249.htm", "82.png", "E780", "0", "", "Artifact0","{AE295D7D-0097-4f38-BCDC-52A47F7CC10A}");
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:3", "", "«Image» S3 Intelligent-Tiering", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2250.htm", "82.png", "E781", "0", "", "Artifact0","{BF8A3253-E5D1-4648-9E3F-96031D4C09E7}");
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:4", "", "«Image» S3 One Zone-IA", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2251.htm", "82.png", "E778", "0", "", "Artifact0","{1F7147B4-5308-4108-A783-4E6813040C8F}");
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:5", "", "«Image» S3 Standard", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2252.htm", "82.png", "E783", "0", "", "Artifact0","{EDE1BE5C-D44C-4ddd-AA58-96B2FCCC6E8E}");
-tocTab[tocTab.length] = new Array("0.1.3.4.27.1:6", "", "«Image» S3 Standard-IA", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2253.htm", "82.png", "E782", "0", "", "Artifact0","{D86372B4-1FDB-4ac4-9E49-F2CB6DCD2200}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:1", "", "«Image» S3 Glacier", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2248.html", "82.png", "E779", "0", "", "Artifact0","{7ABC83AF-A384-4dee-87E7-5DD115BDEF13}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:2", "", "«Image» S3 Glacier Deep Archive", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2249.html", "82.png", "E780", "0", "", "Artifact0","{AE295D7D-0097-4f38-BCDC-52A47F7CC10A}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:3", "", "«Image» S3 Intelligent-Tiering", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2250.html", "82.png", "E781", "0", "", "Artifact0","{BF8A3253-E5D1-4648-9E3F-96031D4C09E7}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:4", "", "«Image» S3 One Zone-IA", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2251.html", "82.png", "E778", "0", "", "Artifact0","{1F7147B4-5308-4108-A783-4E6813040C8F}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:5", "", "«Image» S3 Standard", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2252.html", "82.png", "E783", "0", "", "Artifact0","{EDE1BE5C-D44C-4ddd-AA58-96B2FCCC6E8E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.27.1:6", "", "«Image» S3 Standard-IA", "EARoot/EA1/EA3/EA4/EA27/EA1/EA2253.html", "82.png", "E782", "0", "", "Artifact0","{D86372B4-1FDB-4ac4-9E49-F2CB6DCD2200}");

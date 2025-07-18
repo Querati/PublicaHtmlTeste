@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.26:1", "", "Security, Identity & Compliance", "EARoot/EA1/EA3/EA4/EA26/EA2195.htm", "175.png", "58", "0", "", "Logical diagram0","{8B48EDC2-CBC4-467f-ABD5-44D307FDCD1B}");
-tocTab[tocTab.length] = new Array("0.1.3.4.26:2", "", "«Image» Security, Identity & Compliance Category", "EARoot/EA1/EA3/EA4/EA26/EA2198.htm", "82.png", "E734", "0", "", "Artifact0","{1C2B61C6-A4E2-4de5-9799-47A1C47024CD}");
-tocTab[tocTab.length] = new Array("0.1.3.4.26.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA26/EA1/EA2201.htm", "4.png", "", "", "{4CA50A30-FACD-4ae9-8482-829C3C6CCAD8}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.4.26.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA26/EA2/EA2221.htm", "4.png", "", "", "{B2321DBA-1A47-4d20-9F7A-9C8D95C44476}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.26:1", "", "Security, Identity & Compliance", "EARoot/EA1/EA3/EA4/EA26/EA2195.html", "175.png", "58", "0", "", "Logical diagram0","{8B48EDC2-CBC4-467f-ABD5-44D307FDCD1B}");
+tocTab[tocTab.length] = new Array("0.1.3.4.26:2", "", "«Image» Security, Identity & Compliance Category", "EARoot/EA1/EA3/EA4/EA26/EA2198.html", "82.png", "E734", "0", "", "Artifact0","{1C2B61C6-A4E2-4de5-9799-47A1C47024CD}");
+tocTab[tocTab.length] = new Array("0.1.3.4.26.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA26/EA1/EA2201.html", "4.png", "", "", "{4CA50A30-FACD-4ae9-8482-829C3C6CCAD8}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.26.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA26/EA2/EA2221.html", "4.png", "", "", "{B2321DBA-1A47-4d20-9F7A-9C8D95C44476}", "Package");

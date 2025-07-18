@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.14.1:1", "", "«Image» Amazon AppStream 2.0", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1881.htm", "82.png", "E476", "0", "", "Artifact0","{C5BC875E-216D-4c30-ADAA-5BC6449AB466}");
-tocTab[tocTab.length] = new Array("0.1.3.4.14.1:2", "", "«Image» Amazon WorkDocs", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1882.htm", "82.png", "E478", "0", "", "Artifact0","{DC6F2ADB-0944-4fe9-8C58-CDF2EC05F226}");
-tocTab[tocTab.length] = new Array("0.1.3.4.14.1:3", "", "«Image» Amazon WorkLink", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1883.htm", "82.png", "E477", "0", "", "Artifact0","{C989E48D-46F9-4467-9D81-5AC8A2B5E727}");
-tocTab[tocTab.length] = new Array("0.1.3.4.14.1:4", "", "«Image» Amazon WorkSpaces", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1884.htm", "82.png", "E475", "0", "", "Artifact0","{85142C13-39AB-4712-9C70-D67A92938090}");
+tocTab[tocTab.length] = new Array("0.1.3.4.14.1:1", "", "«Image» Amazon AppStream 2.0", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1881.html", "82.png", "E476", "0", "", "Artifact0","{C5BC875E-216D-4c30-ADAA-5BC6449AB466}");
+tocTab[tocTab.length] = new Array("0.1.3.4.14.1:2", "", "«Image» Amazon WorkDocs", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1882.html", "82.png", "E478", "0", "", "Artifact0","{DC6F2ADB-0944-4fe9-8C58-CDF2EC05F226}");
+tocTab[tocTab.length] = new Array("0.1.3.4.14.1:3", "", "«Image» Amazon WorkLink", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1883.html", "82.png", "E477", "0", "", "Artifact0","{C989E48D-46F9-4467-9D81-5AC8A2B5E727}");
+tocTab[tocTab.length] = new Array("0.1.3.4.14.1:4", "", "«Image» Amazon WorkSpaces", "EARoot/EA1/EA3/EA4/EA14/EA1/EA1884.html", "82.png", "E475", "0", "", "Artifact0","{85142C13-39AB-4712-9C70-D67A92938090}");

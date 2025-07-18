@@ -1,5 +1,5 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1:1", "", "«Image» AWS Budgets", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1672.htm", "82.png", "E308", "0", "", "Artifact0","{30CA3524-14BD-418b-8859-00ED3793CC31}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1:2", "", "«Image» AWS Cost and Usage Report", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1673.htm", "82.png", "E310", "0", "", "Artifact0","{772B8B63-0B55-4180-AEC7-94377702D996}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1:3", "", "«Image» AWS Cost Explorer", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1674.htm", "82.png", "E311", "0", "", "Artifact0","{B58B23B0-D74F-46ae-AE86-2190238C9815}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1:4", "", "«Image» Reserved Instance Reporting", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1675.htm", "82.png", "E309", "0", "", "Artifact0","{65A828E4-76BC-4197-9806-A6A275796A81}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1:5", "", "«Image» Savings Plans", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1676.htm", "82.png", "E312", "0", "", "Artifact0","{F22C0961-3CC0-479f-9121-C3C99096210C}");
+tocTab[tocTab.length] = new Array("0.1.3.4.5.1:1", "", "«Image» AWS Budgets", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1672.html", "82.png", "E308", "0", "", "Artifact0","{30CA3524-14BD-418b-8859-00ED3793CC31}");
+tocTab[tocTab.length] = new Array("0.1.3.4.5.1:2", "", "«Image» AWS Cost and Usage Report", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1673.html", "82.png", "E310", "0", "", "Artifact0","{772B8B63-0B55-4180-AEC7-94377702D996}");
+tocTab[tocTab.length] = new Array("0.1.3.4.5.1:3", "", "«Image» AWS Cost Explorer", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1674.html", "82.png", "E311", "0", "", "Artifact0","{B58B23B0-D74F-46ae-AE86-2190238C9815}");
+tocTab[tocTab.length] = new Array("0.1.3.4.5.1:4", "", "«Image» Reserved Instance Reporting", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1675.html", "82.png", "E309", "0", "", "Artifact0","{65A828E4-76BC-4197-9806-A6A275796A81}");
+tocTab[tocTab.length] = new Array("0.1.3.4.5.1:5", "", "«Image» Savings Plans", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1676.html", "82.png", "E312", "0", "", "Artifact0","{F22C0961-3CC0-479f-9121-C3C99096210C}");
