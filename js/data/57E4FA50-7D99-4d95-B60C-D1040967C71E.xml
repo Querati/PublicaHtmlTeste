@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:1", "", "Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA702.html", "175.png", "89", "0", "", "Logical diagram0","{F187237B-A0F2-4fc2-BBFC-06F11A2140C9}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:2", "", "«Image» Archive Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA705.html", "82.png", "E1199", "0", "", "Artifact0","{18236F5B-BDC0-44d4-AE2F-4441A0AB6F1B}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:3", "", "«Image» Azure StorSimple Device Managers", "EARoot/EA1/EA3/EA3/EA1/EA20/EA706.html", "82.png", "E1205", "0", "", "Artifact0","{9A8423BE-96FF-48d4-BE3B-8D1B5885D8CF}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:4", "", "«Image» AzureFXTEdgeFiler", "EARoot/EA1/EA3/EA3/EA1/EA20/EA707.html", "82.png", "E1200", "0", "", "Artifact0","{47BFD04D-21ED-4c87-B60B-10A3FECA3104}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:5", "", "«Image» Blob Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA708.html", "82.png", "E1203", "0", "", "Artifact0","{73DE2EDA-3B8B-4e78-AEEA-DA92CFE02E28}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:6", "", "«Image» Data Lake Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA709.html", "82.png", "E1201", "0", "", "Artifact0","{4922AD14-2A1F-4678-AF60-BF78158B60C2}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:7", "", "«Image» General Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA710.html", "82.png", "E1202", "0", "", "Artifact0","{55DADE58-C447-4a68-8CFF-7114EC34A6BD}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:8", "", "«Image» Queues Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA711.html", "82.png", "E1204", "0", "", "Artifact0","{9A48C870-450A-43cc-A23E-0BF03874920E}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.20:9", "", "«Image» Table Storage", "EARoot/EA1/EA3/EA3/EA1/EA20/EA712.html", "82.png", "E1206", "0", "", "Artifact0","{F024B9EE-5237-46bf-BA51-D0B9DDD38BD9}");

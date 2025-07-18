@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.14:1", "", "IoT", "EARoot/EA1/EA3/EA3/EA1/EA14/EA662.html", "175.png", "82", "0", "", "Logical diagram0","{58926395-E900-49e1-B2D3-D962965EF8F7}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.14:2", "", "«Image» Azure IoT Hub Security", "EARoot/EA1/EA3/EA3/EA1/EA14/EA665.html", "82.png", "E1180", "0", "", "Artifact0","{4C52F724-8A22-4d88-80A4-08A8C375555C}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.14:3", "", "«Image» Azure Maps", "EARoot/EA1/EA3/EA3/EA1/EA14/EA666.html", "82.png", "E1182", "0", "", "Artifact0","{9B640BF8-EF2D-4d6d-8543-EBEFF91A3296}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.14:4", "", "«Image» Time Series Insights Events Sources", "EARoot/EA1/EA3/EA3/EA1/EA14/EA667.html", "82.png", "E1181", "0", "", "Artifact0","{8FEC10EE-B568-431c-ADB0-CF0B4D22D9D2}");
