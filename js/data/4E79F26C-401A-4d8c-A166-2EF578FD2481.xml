@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.21.1:1", "", "«Image» Amazon API Gateway", "EARoot/EA1/EA3/EA4/EA21/EA1/EA2109.htm", "82.png", "E670", "0", "", "Artifact0","{F42F3D0D-3E88-452a-88DB-6B5B8DBB0DFE}");
+tocTab[tocTab.length] = new Array("0.1.3.4.21.1:2", "", "«Image» Amazon Pinpoint", "EARoot/EA1/EA3/EA4/EA21/EA1/EA2110.htm", "82.png", "E667", "0", "", "Artifact0","{32CB0339-1710-4620-A1BF-792CE791A8B6}");
+tocTab[tocTab.length] = new Array("0.1.3.4.21.1:3", "", "«Image» AWS Amplify", "EARoot/EA1/EA3/EA4/EA21/EA1/EA2111.htm", "82.png", "E668", "0", "", "Artifact0","{B20B42C1-D22B-49a5-9397-6AEA31C04418}");
+tocTab[tocTab.length] = new Array("0.1.3.4.21.1:4", "", "«Image» AWS AppSync", "EARoot/EA1/EA3/EA4/EA21/EA1/EA2112.htm", "82.png", "E669", "0", "", "Artifact0","{B6A44DA7-48CE-488c-BC88-FD1EC03ACD2B}");
+tocTab[tocTab.length] = new Array("0.1.3.4.21.1:5", "", "«Image» AWS Device Farm", "EARoot/EA1/EA3/EA4/EA21/EA1/EA2113.htm", "82.png", "E671", "0", "", "Artifact0","{FFCCD128-E0F0-4ce3-931E-E1427FE22C2B}");

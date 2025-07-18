@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>AWS</title>
+<link href="../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> AWS </h1>
+			<!-- <img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../index.htm">Arquitetura Unimed do Brasil</a> / <a href="../../EA1.htm">Arquitetura Unimed do Brasil</a> / <a href="../EA237.htm">Repositório de Modelos e Metadados</a> / <a href="EA1468.htm">AWS</a> / <a href="EA1466.htm">AWS</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA1/EA1555.htm">General Resources</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA2/EA1598.htm">Analytics</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA3/EA1634.htm">Application Integration</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA4/EA1661.htm">AR & VR</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA5/EA1668.htm">AWS Cost Management</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA6/EA1679.htm">Blockchain</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA7/EA1690.htm">Business Applications</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA8/EA1699.htm">Compute</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA9/EA1766.htm">Containers</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA10/EA1785.htm">Customer Enablement</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA11/EA1795.htm">Customer Engagement</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA12/EA1807.htm">Database</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA13/EA1857.htm">Developer Tools</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA14/EA1877.htm">End User Computing</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA15/EA1887.htm">Game Development</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA16/EA1897.htm">Internet of Things</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA17/EA1968.htm">Machine Learning</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA18/EA2005.htm">Management and Governance</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA19/EA2066.htm">Media Services</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA20/EA2086.htm">Migration and Transfer</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA21/EA2104.htm">Mobile</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA22/EA2118.htm">Network & Content Delivery</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA23/EA2170.htm">Quantum Technologies</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA24/EA2177.htm">Robotics</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA25/EA2190.htm">Satellite</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA26/EA2197.htm">Security, Identity & Compliance</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA27/EA2242.htm">Storage</a></li>
+<li><img src="../../../../images/4.png" alt="Package"/> <a href="./EA28/EA2291.htm">Legacy Images</a></li>
+<li><img src="../../../../images/175.png" alt="Diagram"/> <a href="EA1466.htm">AWS</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA1467.png" usemap="#EA1467" width="850" height="974" border="0" />
+
+<MAP NAME="EA1467">
+<area shape="rect" coords="2280,1272,2820,1812" href="./EA9/EA1764.htm" target="_self">
+<area shape="rect" coords="3252,4134,3792,4674" href="./EA23/EA2168.htm" target="_self">
+<area shape="rect" coords="2274,4158,2814,4698" href="./EA22/EA2116.htm" target="_self">
+<area shape="rect" coords="2274,5142,2814,5682" href="./EA27/EA2240.htm" target="_self">
+<area shape="rect" coords="1284,5142,1824,5682" href="./EA26/EA2195.htm" target="_self">
+<area shape="rect" coords="264,5142,804,5682" href="./EA25/EA2188.htm" target="_self">
+<area shape="rect" coords="4302,4134,4842,4674" href="./EA24/EA2175.htm" target="_self">
+<area shape="rect" coords="288,4170,828,4710" href="./EA20/EA2084.htm" target="_self">
+<area shape="rect" coords="3306,3216,3846,3756" href="./EA18/EA2003.htm" target="_self">
+<area shape="rect" coords="1278,4164,1818,4704" href="./EA21/EA2102.htm" target="_self">
+<area shape="rect" coords="4248,3216,4788,3756" href="./EA19/EA2064.htm" target="_self">
+<area shape="rect" coords="2274,3216,2814,3756" href="./EA17/EA1966.htm" target="_self">
+<area shape="rect" coords="4332,2316,4716,2700" href="./EA1/EA1553.htm" target="_self">
+<area shape="rect" coords="3306,2256,3846,2796" href="./EA15/EA1885.htm" target="_self">
+<area shape="rect" coords="2274,2256,2814,2796" href="./EA14/EA1875.htm" target="_self">
+<area shape="rect" coords="1278,2256,1818,2796" href="./EA13/EA1855.htm" target="_self">
+<area shape="rect" coords="288,2226,828,2766" href="./EA12/EA1805.htm" target="_self">
+<area shape="rect" coords="4248,1272,4788,1812" href="./EA11/EA1793.htm" target="_self">
+<area shape="rect" coords="3306,1272,3846,1812" href="./EA10/EA1783.htm" target="_self">
+<area shape="rect" coords="1278,1272,1818,1812" href="./EA8/EA1697.htm" target="_self">
+<area shape="rect" coords="282,1272,822,1812" href="./EA7/EA1688.htm" target="_self">
+<area shape="rect" coords="4272,264,4812,804" href="./EA6/EA1677.htm" target="_self">
+<area shape="rect" coords="3252,264,3792,804" href="./EA5/EA1666.htm" target="_self">
+<area shape="rect" coords="2310,264,2850,804" href="./EA4/EA1659.htm" target="_self">
+<area shape="rect" coords="1278,264,1818,804" href="./EA3/EA1632.htm" target="_self">
+<area shape="rect" coords="1278,3216,1818,3756" href="./EA16/EA1895.htm" target="_self">
+<area shape="rect" coords="288,264,828,804" href="./EA2/EA1596.htm" target="_self">
+<area shape="rect" coords="288,3198,828,3738" href="./EA16/EA1893.htm" target="_self">
+<area shape="rect" coords="2052,1014,3048,1968" href="EA1483.htm" target="_self">
+<area shape="rect" coords="3048,3876,4044,4830" href="EA1515.htm" target="_self">
+<area shape="rect" coords="60,3876,1056,4830" href="EA1509.htm" target="_self">
+<area shape="rect" coords="1056,2922,2052,3876" href="EA1500.htm" target="_self">
+<area shape="rect" coords="2052,4830,3048,5784" href="EA1523.htm" target="_self">
+<area shape="rect" coords="1056,4830,2052,5784" href="EA1521.htm" target="_self">
+<area shape="rect" coords="60,4830,1056,5784" href="EA1519.htm" target="_self">
+<area shape="rect" coords="4044,3876,5040,4830" href="EA1517.htm" target="_self">
+<area shape="rect" coords="2052,3876,3048,4830" href="EA1513.htm" target="_self">
+<area shape="rect" coords="1056,3876,2052,4830" href="EA1511.htm" target="_self">
+<area shape="rect" coords="4044,2922,5040,3876" href="EA1507.htm" target="_self">
+<area shape="rect" coords="3048,2922,4044,3876" href="EA1505.htm" target="_self">
+<area shape="rect" coords="2052,2922,3048,3876" href="EA1503.htm" target="_self">
+<area shape="rect" coords="60,2922,1056,3876" href="EA1499.htm" target="_self">
+<area shape="rect" coords="4044,1968,5040,2922" href="EA1497.htm" target="_self">
+<area shape="rect" coords="3048,1968,4044,2922" href="EA1495.htm" target="_self">
+<area shape="rect" coords="2052,1968,3048,2922" href="EA1493.htm" target="_self">
+<area shape="rect" coords="1056,1968,2052,2922" href="EA1491.htm" target="_self">
+<area shape="rect" coords="60,1968,1056,2922" href="EA1489.htm" target="_self">
+<area shape="rect" coords="4044,1014,5040,1968" href="EA1487.htm" target="_self">
+<area shape="rect" coords="3048,1014,4044,1968" href="EA1485.htm" target="_self">
+<area shape="rect" coords="1056,1014,2052,1968" href="EA1481.htm" target="_self">
+<area shape="rect" coords="60,1014,1056,1968" href="EA1479.htm" target="_self">
+<area shape="rect" coords="4044,60,5040,1014" href="EA1477.htm" target="_self">
+<area shape="rect" coords="3048,60,4044,1014" href="EA1475.htm" target="_self">
+<area shape="rect" coords="2052,60,3048,1014" href="EA1473.htm" target="_self">
+<area shape="rect" coords="1056,60,2052,1014" href="EA1471.htm" target="_self">
+<area shape="rect" coords="60,60,1056,1014" href="EA1469.htm" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">AWS : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28/01/2020 15:21:23</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">01/02/2021 12:30:14</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{DF24EDA3-2832-4735-9526-AEF59109B4EF}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

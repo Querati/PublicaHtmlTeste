@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resources</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Resources </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Arquitetura Unimed do Brasil</a> / <a href="../../../EA1.htm">Arquitetura Unimed do Brasil</a> / <a href="../../EA237.htm">Repositório de Modelos e Metadados</a> / <a href="../EA1468.htm">AWS</a> / <a href="EA1699.htm">Compute</a> / <a href="./EA2/EA1719.htm">Resources</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1720.htm">A1 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1721.htm">AMI</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1722.htm">Application</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1723.htm">Auto Scaling</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1724.htm">AWS Compute optimizer</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1725.htm">AWS Local Zones</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1726.htm">AWS Parallel Cluster</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1727.htm">AWS Wavelength</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1728.htm">Bottlerocket</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1729.htm">C4 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1730.htm">C5 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1731.htm">C5n Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1732.htm">C6g instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1733.htm">D2 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1734.htm">DB Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1735.htm">Deployment</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1736.htm">EC2 Image Builder</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1737.htm">Elastic IP Address</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1738.htm">F1 instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1739.htm">G3 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1740.htm">H1 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1741.htm">High Memory Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1742.htm">I3 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1743.htm">Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1744.htm">Instance with CloudWatch</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1745.htm">Instances</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1746.htm">Lambda Function</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1747.htm">M4 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1748.htm">M5 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1749.htm">M5a Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1750.htm">M6g instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1751.htm">P2 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1752.htm">P3 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1753.htm">R4 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1754.htm">R5 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1755.htm">R5a Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1756.htm">R6g instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1757.htm">Rescue</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1758.htm">Spot Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1759.htm">T2 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1760.htm">T3 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1761.htm">X1 Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1762.htm">X1e Instance</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="./EA2/EA1763.htm">z1d Instance</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Resources  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28/11/2018 15:01:53</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">29/01/2020 14:08:02</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{24408A9D-151D-43c6-9B49-8A1758A4765F}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

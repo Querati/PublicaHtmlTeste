@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Compute</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Compute </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.htm">Arquitetura Unimed do Brasil</a> / <a href="../../../EA1.htm">Arquitetura Unimed do Brasil</a> / <a href="../../EA237.htm">Repositório de Modelos e Metadados</a> / <a href="../EA309.htm">Azure Icons and Images</a> / <a href="EA811.htm">Compute</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA809.htm">Compute</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA812.htm">App Services</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA813.htm">Application Group</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA814.htm">Automanaged VM</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA815.htm">Availability Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA816.htm">Azure Compute Galleries</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA817.htm">Azure Spring Apps</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA818.htm">Batch Accounts</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA819.htm">Cloud Services (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA820.htm">Container Instances</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA821.htm">Container Services (Deprecated)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA822.htm">Disk Encryption Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA823.htm">Disks</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA824.htm">Disks (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA825.htm">Disks Snapshots</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA826.htm">Function Apps</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA827.htm">Host Groups</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA828.htm">Host Pools</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA829.htm">Hosts</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA830.htm">Image Definitions</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA831.htm">Image Templates</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA832.htm">Image Versions</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA833.htm">Images</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA834.htm">Kubernetes Services</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA835.htm">Maintenance Configuration</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA836.htm">Managed Service Fabric</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA837.htm">Mesh Applications</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA838.htm">Metrics Advisor</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA839.htm">OS Images (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA840.htm">Restore Points</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA841.htm">Restore Points Collections</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA842.htm">Service Fabric Clusters</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA843.htm">Shared Image Galleries</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA844.htm">Virtual machine</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA845.htm">Virtual Machines (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA846.htm">VM Images (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA847.htm">VM Scale Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA848.htm">Workspaces</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA849.htm">Workspaces</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">Compute  : Public   Package</span>
+	<table border="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">05/08/2019 12:11:51</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">11/01/2023 09:50:43</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Difficulty:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj06" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Priority:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj05" style="display: none;">
+			<td class="ObjectDetailsTopic" >Multiplicity:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{83F7A5F1-D286-4b1e-B9BE-31E445DB4E3C}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+	</table>
+	
+ </div>
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

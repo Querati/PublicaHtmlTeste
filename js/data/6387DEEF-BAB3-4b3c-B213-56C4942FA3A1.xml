@@ -1,0 +1,7 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.16:1", "", "Internet of Things", "EARoot/EA1/EA3/EA4/EA16/EA1893.htm", "175.png", "48", "0", "", "Logical diagram0","{C783B62F-2035-40f2-A7F2-6F65520117D4}");
+tocTab[tocTab.length] = new Array("0.1.3.4.16:2", "", "Internet of Things (Resources & Things)", "EARoot/EA1/EA3/EA4/EA16/EA1895.htm", "175.png", "47", "0", "", "Logical diagram0","{7FFC7E0E-EEDB-459d-B9F3-4D86F83764F9}");
+tocTab[tocTab.length] = new Array("0.1.3.4.16:3", "", "«Image» Internet of Things Category", "EARoot/EA1/EA3/EA4/EA16/EA1898.htm", "82.png", "E483", "0", "", "Artifact0","{7BF42F6C-F950-4f91-94B4-D0D2C7CC0B78}");
+tocTab[tocTab.length] = new Array("0.1.3.4.16.1", "1", "IoT Resources", "EARoot/EA1/EA3/EA4/EA16/EA1/EA1903.htm", "4.png", "", "", "{70321A91-797F-4329-AE62-912AB0E56FA5}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.16.2", "1", "IoT Things", "EARoot/EA1/EA3/EA4/EA16/EA2/EA1930.htm", "4.png", "", "", "{E0C65309-FD71-4475-8B56-7365743CE95C}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.16.3", "1", "Products", "EARoot/EA1/EA3/EA4/EA16/EA3/EA1947.htm", "4.png", "", "", "{A6CCE794-452F-414e-9E5F-2B183AF50E7F}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.16.4", "1", "Resources", "EARoot/EA1/EA3/EA4/EA16/EA4/EA1959.htm", "4.png", "", "", "{A1B58ABB-FD3F-49e3-9AAD-DD3621C62619}", "Package");

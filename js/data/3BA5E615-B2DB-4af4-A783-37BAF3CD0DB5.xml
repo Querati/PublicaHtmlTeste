@@ -1,0 +1,5 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1:1", "", "Media", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA676.htm", "175.png", "84", "0", "", "Logical diagram0","{A5720BFB-7795-4779-8CC1-4EC07433ED97}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1:2", "", "«Image» Azure Media Player", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA679.htm", "82.png", "E1188", "0", "", "Artifact0","{4EB7F01A-F443-404d-BF44-0A3847E606DC}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1:3", "", "«Image» Content Protection", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA680.htm", "82.png", "E1187", "0", "", "Artifact0","{13484000-2CB1-4c0d-8388-1B4AA771D3EB}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1:4", "", "«Image» Media Encoding", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA681.htm", "82.png", "E1189", "0", "", "Artifact0","{7E876534-2F64-4a2b-9EB2-57064D1E61C1}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.15.1:5", "", "«Image» Media On-Demand", "EARoot/EA1/EA3/EA3/EA1/EA15/EA1/EA682.htm", "82.png", "E1190", "0", "", "Artifact0","{FD110167-FF96-407a-8806-6B9213B6C987}");
