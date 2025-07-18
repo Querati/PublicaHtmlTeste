@@ -1,3 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.5:1", "", "AWS Cost Management", "EARoot/EA1/EA3/EA4/EA5/EA1665.html", "175.png", "36", "0", "", "Logical diagram0","{D4FBF106-5AE7-4d8d-A066-C63394D9E7B5}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5:2", "", "«Image» AWS Cost Management Category", "EARoot/EA1/EA3/EA4/EA5/EA1668.html", "82.png", "E306", "0", "", "Artifact0","{F1DD1B0C-5136-406f-8548-E2EF975C9A2F}");
-tocTab[tocTab.length] = new Array("0.1.3.4.5.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA5/EA1/EA1670.html", "4.png", "", "", "{415434D4-7E92-4bf0-AD2C-312031CE2B9D}", "Package");

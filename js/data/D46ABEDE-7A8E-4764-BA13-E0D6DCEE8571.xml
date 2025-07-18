@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.9.1:1", "", "«Image» Amazon Elastic Container Kubernetes", "EARoot/EA1/EA3/EA4/EA9/EA1/EA1770.html", "82.png", "E391", "0", "", "Artifact0","{E077BE99-4DF0-4696-827F-EEED4DD28D59}");
-tocTab[tocTab.length] = new Array("0.1.3.4.9.1:2", "", "«Image» Amazon Elastic Container Registry", "EARoot/EA1/EA3/EA4/EA9/EA1/EA1771.html", "82.png", "E392", "0", "", "Artifact0","{FBC0A4FE-BD50-4f37-A377-105335E67E17}");
-tocTab[tocTab.length] = new Array("0.1.3.4.9.1:3", "", "«Image» Amazon Elastic Container Service", "EARoot/EA1/EA3/EA4/EA9/EA1/EA1772.html", "82.png", "E389", "0", "", "Artifact0","{399077D1-84E4-4938-8819-AB21EA47B622}");
-tocTab[tocTab.length] = new Array("0.1.3.4.9.1:4", "", "«Image» AWS Fargate", "EARoot/EA1/EA3/EA4/EA9/EA1/EA1773.html", "82.png", "E390", "0", "", "Artifact0","{B507EEA8-DC46-440c-A16C-C6D98F271EC8}");

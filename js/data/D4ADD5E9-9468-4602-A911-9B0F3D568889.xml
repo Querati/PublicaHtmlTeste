@@ -1,4 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.13:1", "", "Developer Tools", "EARoot/EA1/EA3/EA4/EA13/EA1854.html", "175.png", "44", "0", "", "Logical diagram0","{0B387981-19EF-4c47-8B4C-06C080548A4A}");
-tocTab[tocTab.length] = new Array("0.1.3.4.13:2", "", "«Image» Developer Tools Category", "EARoot/EA1/EA3/EA4/EA13/EA1857.html", "82.png", "E458", "0", "", "Artifact0","{987C79D2-F17B-47c1-ABDF-7AF5B28208FF}");
-tocTab[tocTab.length] = new Array("0.1.3.4.13.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA13/EA1/EA1860.html", "4.png", "", "", "{0507587D-1071-48e1-A27D-79D874E2359D}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.4.13.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA13/EA2/EA1872.html", "4.png", "", "", "{1C37A96A-17E3-4eb8-BA34-C1D094287BEC}", "Package");
