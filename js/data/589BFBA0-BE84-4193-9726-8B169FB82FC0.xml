@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:1", "", "Release 5", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2334.html", "175.png", "61", "0", "", "Logical diagram0","{602547D2-D33F-4009-898F-D76F327C681B}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:2", "", "«Image» Amazon Application Auto Scaling", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2337.html", "82.png", "E862", "0", "", "Artifact0","{6BF4A2BD-7C58-46fb-BEBA-B2CE6BD57587}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:3", "", "«Image» Amazon FSx", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2338.html", "82.png", "E865", "0", "", "Artifact0","{B6F53ECD-BC23-4b29-B0BA-06E677C499D8}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:4", "", "«Image» AWS Snowball", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2339.html", "82.png", "E866", "0", "", "Artifact0","{C245904B-D3B6-4834-8190-19A51A5E44C2}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:5", "", "«Image» AWS Snowball Edge", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2340.html", "82.png", "E864", "0", "", "Artifact0","{B2B2D8E6-3D27-42bd-9EE8-FAF9D2FCC216}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:6", "", "«Image» AWS Snowmobile", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2341.html", "82.png", "E861", "0", "", "Artifact0","{60357697-291F-4d52-A703-EF1F3F34AA6D}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:7", "", "«Image» AWS Thinkbox Draft", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2342.html", "82.png", "E868", "0", "", "Artifact0","{D6CACECB-F1D9-4d26-87C5-677DBFE5FF6F}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:8", "", "«Image» CloudEndure Migration", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2343.html", "82.png", "E863", "0", "", "Artifact0","{9FFABE2C-C4CB-4b3d-81BE-5F9423997E20}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:9", "", "«Image» Infrequent Access Storage Class", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2344.html", "82.png", "E867", "0", "", "Artifact0","{D4D68003-4380-4aff-9823-18A8A6B48E34}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:10", "", "«Image» Standard Storage Class", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2345.html", "82.png", "E860", "0", "", "Artifact0","{535EF5AC-1103-4381-A163-66AFD8AEC7B1}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:11", "", "«Image» Temporary security credential", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2346.html", "82.png", "E859", "0", "", "Artifact0","{4C15FC63-7467-4a58-8BF5-5E1716062AA5}");
+tocTab[tocTab.length] = new Array("0.1.3.4.28.2:12", "", "«Image» Thermostat", "EARoot/EA1/EA3/EA4/EA28/EA2/EA2347.html", "82.png", "E869", "0", "", "Artifact0","{DF982DAE-3998-47bd-AA95-31AED50D1318}");

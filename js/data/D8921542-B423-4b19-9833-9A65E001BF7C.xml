@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.7.1:1", "", "«Image» Alexa for Business", "EARoot/EA1/EA3/EA4/EA7/EA1/EA1693.html", "82.png", "E323", "0", "", "Artifact0","{F39D5FDF-24C6-4d1b-B321-3F0E5405349D}");
+tocTab[tocTab.length] = new Array("0.1.3.4.7.1:2", "", "«Image» Amazon Chime", "EARoot/EA1/EA3/EA4/EA7/EA1/EA1694.html", "82.png", "E322", "0", "", "Artifact0","{94217158-8851-4d2b-91CA-EA11014B68C1}");
+tocTab[tocTab.length] = new Array("0.1.3.4.7.1:3", "", "«Image» Amazon WorkMail", "EARoot/EA1/EA3/EA4/EA7/EA1/EA1695.html", "82.png", "E321", "0", "", "Artifact0","{17B57A73-A36E-411b-A378-A0BDF441159B}");

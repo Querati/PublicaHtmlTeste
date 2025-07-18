@@ -1,0 +1,3 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.11.1:1", "", "«Image» Amazon Connect", "EARoot/EA1/EA3/EA4/EA11/EA1/EA1799.html", "82.png", "E411", "0", "", "Artifact0","{6E1C0B41-3113-4452-9D33-6DA0C0D2DF26}");
+tocTab[tocTab.length] = new Array("0.1.3.4.11.1:2", "", "«Image» Amazon Pinpoint", "EARoot/EA1/EA3/EA4/EA11/EA1/EA1800.html", "82.png", "E410", "0", "", "Artifact0","{6D262619-237F-418a-AF0A-9CBE2C94BCA9}");
+tocTab[tocTab.length] = new Array("0.1.3.4.11.1:3", "", "«Image» Amazon Simple Email Service", "EARoot/EA1/EA3/EA4/EA11/EA1/EA1801.html", "82.png", "E409", "0", "", "Artifact0","{674BA568-4BBB-4f5f-B5BA-75CDCB7851F5}");

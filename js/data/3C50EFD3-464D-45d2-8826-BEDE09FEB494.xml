@@ -1,0 +1,15 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:1", "", "«Image» Amazon EC2", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1703.html", "82.png", "E336", "0", "", "Artifact0","{9C4D2F6A-FF79-4390-985F-F771DEFE5F45}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:2", "", "«Image» Amazon EC2 Auto Scaling", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1704.html", "82.png", "E328", "0", "", "Artifact0","{23FEC571-EEE5-4c28-B81F-618F97D13150}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:3", "", "«Image» Amazon Lightsail", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1705.html", "82.png", "E331", "0", "", "Artifact0","{51F503B7-8CB8-45a5-A1BC-9167292CA7B9}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:4", "", "«Image» AWS Batch", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1706.html", "82.png", "E332", "0", "", "Artifact0","{58A533C3-902B-492e-85EB-65A93EC24A08}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:5", "", "«Image» AWS Elastic Beanstalk", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1707.html", "82.png", "E334", "0", "", "Artifact0","{7EFEB745-4E59-4337-86C9-FDA2E9B97E94}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:6", "", "«Image» AWS Lambda", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1708.html", "82.png", "E333", "0", "", "Artifact0","{700E1F46-4C45-4c58-A26B-A59ECEA2210E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:7", "", "«Image» AWS Outpost", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1709.html", "82.png", "E339", "0", "", "Artifact0","{B41D946A-FE5B-458c-A5FF-DCAD36876C5F}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:8", "", "«Image» AWS Serverless Application Repository", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1710.html", "82.png", "E330", "0", "", "Artifact0","{51799CA6-6BB4-47c2-9384-26FF02D81398}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:9", "", "«Image» AWS Thinkbox Deadline", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1711.html", "82.png", "E335", "0", "", "Artifact0","{875FCFF2-68C1-4fc7-9405-82EAE4CA5A3F}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:10", "", "«Image» AWS Thinkbox Frost", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1712.html", "82.png", "E341", "0", "", "Artifact0","{E5A2CE31-B112-4bc9-96CF-93B23B24338F}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:11", "", "«Image» AWS Thinkbox Krakatoa", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1713.html", "82.png", "E340", "0", "", "Artifact0","{C7905B9D-99BB-4f4d-B3FA-E320CD110A0E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:12", "", "«Image» AWS Thinkbox Sequoia", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1714.html", "82.png", "E337", "0", "", "Artifact0","{AB8D71B5-30A0-4d6f-AF59-92501E108E9E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:13", "", "«Image» AWS Thinkbox Stoke", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1715.html", "82.png", "E327", "0", "", "Artifact0","{0A342A32-B39B-434f-A037-C4EB5DF98E3B}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:14", "", "«Image» AWS Thinkbox XMesh", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1716.html", "82.png", "E329", "0", "", "Artifact0","{388ADAC5-F45B-4a7e-A7FA-4BAD5AB59746}");
+tocTab[tocTab.length] = new Array("0.1.3.4.8.1:15", "", "«Image» VMware Cloud on AWS", "EARoot/EA1/EA3/EA4/EA8/EA1/EA1717.html", "82.png", "E338", "0", "", "Artifact0","{AE665784-CB43-47cc-9A32-82B2011BC642}");

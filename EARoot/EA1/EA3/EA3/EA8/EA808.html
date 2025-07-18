@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Compute</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Compute </h1>
+			<!-- <img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../index.html">Arquitetura Unimed do Brasil</a> / <a href="../../../EA1.html">Arquitetura Unimed do Brasil</a> / <a href="../../EA236.html">Repositório de Modelos e Metadados</a> / <a href="../EA308.html">Azure Icons and Images</a> / <a href="EA810.html">Compute</a> / <a href="EA808.html">Compute</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../images/175.png" alt="Diagram"/> <a href="EA808.html">Compute</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA811.html">App Services</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA812.html">Application Group</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA813.html">Automanaged VM</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA814.html">Availability Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA815.html">Azure Compute Galleries</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA816.html">Azure Spring Apps</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA817.html">Batch Accounts</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA818.html">Cloud Services (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA819.html">Container Instances</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA820.html">Container Services (Deprecated)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA821.html">Disk Encryption Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA822.html">Disks</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA823.html">Disks (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA824.html">Disks Snapshots</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA825.html">Function Apps</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA826.html">Host Groups</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA827.html">Host Pools</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA828.html">Hosts</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA829.html">Image Definitions</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA830.html">Image Templates</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA831.html">Image Versions</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA832.html">Images</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA833.html">Kubernetes Services</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA834.html">Maintenance Configuration</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA835.html">Managed Service Fabric</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA836.html">Mesh Applications</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA837.html">Metrics Advisor</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA838.html">OS Images (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA839.html">Restore Points</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA840.html">Restore Points Collections</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA841.html">Service Fabric Clusters</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA842.html">Shared Image Galleries</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA843.html">Virtual machine</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA844.html">Virtual Machines (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA845.html">VM Images (Classic)</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA846.html">VM Scale Sets</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA847.html">Workspaces</a></li>
+<li><img src="../../../../../images/82.png" alt="Artifact"/> <a href="EA848.html">Workspaces</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA809.png" usemap="#EA809" width="546" height="907" border="0" />
+
+<MAP NAME="EA809">
+<area shape="rect" coords="1470,4740,1806,5076" href="EA847.html" target="_self">
+<area shape="rect" coords="810,2100,1146,2436" href="EA827.html" target="_self">
+<area shape="rect" coords="810,60,1146,396" href="EA812.html" target="_self">
+<area shape="rect" coords="810,4740,1146,5076" href="EA848.html" target="_self">
+<area shape="rect" coords="2190,4080,2526,4416" href="EA846.html" target="_self">
+<area shape="rect" coords="1470,4080,1806,4416" href="EA845.html" target="_self">
+<area shape="rect" coords="2850,4080,3186,4416" href="EA844.html" target="_self">
+<area shape="rect" coords="90,4740,426,5076" href="EA843.html" target="_self">
+<area shape="rect" coords="810,4080,1146,4416" href="EA842.html" target="_self">
+<area shape="rect" coords="90,4080,426,4416" href="EA841.html" target="_self">
+<area shape="rect" coords="2190,3420,2526,3756" href="EA839.html" target="_self">
+<area shape="rect" coords="2850,3420,3186,3756" href="EA840.html" target="_self">
+<area shape="rect" coords="1470,3420,1806,3756" href="EA838.html" target="_self">
+<area shape="rect" coords="810,3420,1146,3756" href="EA837.html" target="_self">
+<area shape="rect" coords="90,3420,426,3756" href="EA836.html" target="_self">
+<area shape="rect" coords="2850,2760,3186,3096" href="EA835.html" target="_self">
+<area shape="rect" coords="2190,2760,2526,3096" href="EA834.html" target="_self">
+<area shape="rect" coords="1470,2760,1806,3096" href="EA833.html" target="_self">
+<area shape="rect" coords="810,2760,1146,3096" href="EA832.html" target="_self">
+<area shape="rect" coords="90,2760,426,3096" href="EA831.html" target="_self">
+<area shape="rect" coords="2850,2100,3186,2436" href="EA830.html" target="_self">
+<area shape="rect" coords="2190,2100,2526,2436" href="EA829.html" target="_self">
+<area shape="rect" coords="1470,2100,1806,2436" href="EA828.html" target="_self">
+<area shape="rect" coords="90,2100,426,2436" href="EA826.html" target="_self">
+<area shape="rect" coords="2850,1440,3186,1776" href="EA825.html" target="_self">
+<area shape="rect" coords="810,1440,1146,1776" href="EA822.html" target="_self">
+<area shape="rect" coords="2190,1440,2526,1776" href="EA824.html" target="_self">
+<area shape="rect" coords="1470,1440,1806,1776" href="EA823.html" target="_self">
+<area shape="rect" coords="90,1440,426,1776" href="EA821.html" target="_self">
+<area shape="rect" coords="2850,780,3186,1116" href="EA820.html" target="_self">
+<area shape="rect" coords="2190,780,2526,1116" href="EA819.html" target="_self">
+<area shape="rect" coords="1470,780,1806,1116" href="EA818.html" target="_self">
+<area shape="rect" coords="810,780,1146,1116" href="EA817.html" target="_self">
+<area shape="rect" coords="90,780,426,1116" href="EA816.html" target="_self">
+<area shape="rect" coords="2850,60,3186,396" href="EA815.html" target="_self">
+<area shape="rect" coords="2190,60,2526,396" href="EA814.html" target="_self">
+<area shape="rect" coords="1470,60,1806,396" href="EA813.html" target="_self">
+<area shape="rect" coords="90,60,426,396" href="EA811.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Compute : Azure diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">05/08/2019 12:11:52</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">10/07/2024 15:55:37</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{1ED1FC54-F744-400b-9E02-3F79FAA48F34}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+
