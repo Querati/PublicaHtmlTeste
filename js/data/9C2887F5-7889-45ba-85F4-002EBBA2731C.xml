@@ -1,2 +1,2 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.5:1", "", "Azure VMWare Solution", "EARoot/EA1/EA3/EA3/EA1/EA5/EA580.html", "175.png", "73", "0", "", "Logical diagram0","{C5C82EA9-654A-4fe1-9CDE-FC60BEE1280B}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.5:2", "", "«Image» AVS", "EARoot/EA1/EA3/EA3/EA1/EA5/EA583.html", "82.png", "E1128", "0", "", "Artifact0","{97C95B12-78EC-4b69-9FD3-99A5C4F8AFB9}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.5:1", "", "Azure VMWare Solution", "EARoot/EA1/EA3/EA3/EA1/EA5/EA579.html", "175.png", "73", "0", "", "Logical diagram0","{C5C82EA9-654A-4fe1-9CDE-FC60BEE1280B}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.5:2", "", "AVS", "EARoot/EA1/EA3/EA3/EA1/EA5/EA582.html", "82.png", "E1128", "0", "", "Artifact0","{97C95B12-78EC-4b69-9FD3-99A5C4F8AFB9}");

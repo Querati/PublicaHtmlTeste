@@ -1,3 +1,3 @@
-tocTab[tocTab.length] = new Array("0.1.1.6.1.1", "1", "AWS", "EARoot/EA1/EA1/EA6/EA1/EA1/EA110.html", "4.png", "", "", "{0DDDF655-4C3D-4c05-950F-42504A691D58}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.6.1.2", "", "Azure", "EARoot/EA1/EA1/EA6/EA1/EA2/EA121.html", "4.png", "", "", "{A0A6C1A4-5EDF-42b7-A09F-300713EE7729}", "Package");
-tocTab[tocTab.length] = new Array("0.1.1.6.1.3", "", "OCI", "EARoot/EA1/EA1/EA6/EA1/EA3/EA122.html", "4.png", "", "", "{0B970DA5-C1B9-49c5-BFF3-DAE66700DBFA}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6.1.1", "1", "AWS", "EARoot/EA1/EA1/EA6/EA1/EA1/EA109.html", "4.png", "", "", "{0DDDF655-4C3D-4c05-950F-42504A691D58}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6.1.2", "", "Azure", "EARoot/EA1/EA1/EA6/EA1/EA2/EA120.html", "4.png", "", "", "{A0A6C1A4-5EDF-42b7-A09F-300713EE7729}", "Package");
+tocTab[tocTab.length] = new Array("0.1.1.6.1.3", "", "OCI", "EARoot/EA1/EA1/EA6/EA1/EA3/EA121.html", "4.png", "", "", "{0B970DA5-C1B9-49c5-BFF3-DAE66700DBFA}", "Package");

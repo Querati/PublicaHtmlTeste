@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.1", "1", "Azure Example", "EARoot/EA1/EA3/EA1/EA244.html", "4.png", "", "", "{81042B07-7C8C-5A16-B4EC-9541BB0BD5C1}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.2", "1", "Azure Example 2", "EARoot/EA1/EA3/EA2/EA276.html", "4.png", "", "", "{97DF6CAD-47B1-3567-BA47-3E93489CE934}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.3", "1", "Azure Icons and Images", "EARoot/EA1/EA3/EA3/EA309.html", "4.png", "", "", "{7FD39493-CCDD-46c0-992E-3BA5227CECDE}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.4", "1", "AWS", "EARoot/EA1/EA3/EA4/EA1468.html", "4.png", "", "", "{9F2197FE-6F32-4a55-9E6D-11E367B3774A}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.1", "1", "Azure Example", "EARoot/EA1/EA3/EA1/EA243.html", "4.png", "", "", "{81042B07-7C8C-5A16-B4EC-9541BB0BD5C1}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.2", "1", "Azure Example 2", "EARoot/EA1/EA3/EA2/EA275.html", "4.png", "", "", "{97DF6CAD-47B1-3567-BA47-3E93489CE934}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.3", "1", "Azure Icons and Images", "EARoot/EA1/EA3/EA3/EA308.html", "4.png", "", "", "{7FD39493-CCDD-46c0-992E-3BA5227CECDE}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4", "1", "AWS", "EARoot/EA1/EA3/EA4/EA1467.html", "4.png", "", "", "{9F2197FE-6F32-4a55-9E6D-11E367B3774A}", "Package");

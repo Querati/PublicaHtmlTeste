@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Release 5</title>
+<link href="../../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="../../../../../../js/displayToc.js" type="text/javascript"></script>
+<script>
+
+  function switchProjectProperties() {
+			if (document.getElementById("proj00").style.display == "none") {
+				document.getElementById("proj00").style.display = "revert";
+				document.getElementById("proj01").style.display = "revert";
+				document.getElementById("proj02").style.display = "revert";
+				document.getElementById("proj03").style.display = "revert";
+				document.getElementById("proj04").style.display = "revert";
+				document.getElementById("proj05").style.display = "revert";
+			} else {
+				document.getElementById("proj00").style.display = "none";
+				document.getElementById("proj01").style.display = "none";
+				document.getElementById("proj02").style.display = "none";
+				document.getElementById("proj03").style.display = "none";
+				document.getElementById("proj04").style.display = "none";
+				document.getElementById("proj05").style.display = "none";
+			}
+}
+
+		function switchAdvancedProperties(){
+
+			if (document.getElementById("adv00").style.display == "none") {;
+				document.getElementById("adv00").style.display = "revert";
+				document.getElementById("adv01").style.display = "revert";
+			} else {
+				document.getElementById("adv00").style.display = "none";
+				document.getElementById("adv01").style.display = "none";
+			}
+		}
+		function initPage()
+        {			
+			var divs = document.getElementsByClassName("ObjectDetailsNotes");
+			for (var j = 0; j < divs.length; j++) {
+				var tmpStr = divs[j].innerHTML;
+				tmpStr = tmpStr.replace(/#gt;/g, "&gt;");
+				tmpStr = tmpStr.replace(/#lt;/g, "&lt;");
+
+				tmpStr = tmpStr.replace(/&gt;/g, ">");
+				tmpStr = tmpStr.replace(/&lt;/g, "<");
+
+				divs[j].innerHTML = tmpStr;
+			}
+
+            if (document.getElementById('TableGroup') != null)
+            {
+                toggleItem(document.getElementById('TableGroup').getElementsByTagName('li')[0].id.replace("Title", ""));
+            }
+
+        }
+		
+		document.addEventListener('DOMContentLoaded', () => {
+			const img = document.querySelector('.diagram_image img');
+			const mapAreas = document.querySelectorAll('area');
+
+			if (img && mapAreas.length > 0) {
+				//Get original and rendered image dimensions
+				const originalWidth = img.naturalWidth;
+				const originalHeight = img.naturalHeight;
+				const renderedWidth = img.clientWidth || originalWidth; 
+				const renderedHeight = img.clientHeight || originalHeight; 
+				
+				//Calculate scaling factors
+				const scaleX = renderedWidth / originalWidth;
+				const scaleY = renderedHeight / originalHeight;
+
+				//Adjust map area coordinates
+				mapAreas.forEach((area) => {
+				  const originalCoords = area.getAttribute('coords').split(',').map(Number);
+				  const scaledCoords = originalCoords.map((coord, index) =>
+					index % 2 === 0 ? coord * scaleX : coord * scaleY
+				  );
+				  area.setAttribute('coords', scaledCoords.join(','));
+				});
+			}
+		});
+</script>
+<style>
+
+</style>
+</head>
+<body onload="initPage();">
+<div class="section group" >
+
+		<div class="col span_2_of_2 header_frame">
+			<h1> Release 5 </h1>
+			<!-- <img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />-->
+			<img class="header_image" src="../../../../../../images/ea-banner.png" align="right" alt="Header Image" />
+		</div>
+		<div class="col span_2_of_2 breadcrumb_frame">
+			<p><a href="../../../../../../index.html">Arquitetura Unimed do Brasil</a> / <a href="../../../../EA1.html">Arquitetura Unimed do Brasil</a> / <a href="../../../EA236.html">Repositório de Modelos e Metadados</a> / <a href="../../EA1467.html">AWS</a> / <a href="../EA2290.html">Legacy Images</a> / <a href="EA2336.html">Release 5</a> / <a href="EA2334.html">Release 5</a></p>
+		</div>
+			
+		<table class="contentmaintable">
+			<!-- <tfoot>
+				<tr>
+					<td>foot1</td>
+					<td>foot2</td>
+				</tr>
+			</tfoot> -->
+			<tbody>
+				<tr>
+					<td class="indexcell">
+						<div class="projectBrowserTitle">Project: </div>
+						<ul>
+<li><img src="../../../../../../images/175.png" alt="Diagram"/> <a href="EA2334.html">Release 5</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2337.html">Amazon Application Auto Scaling</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2338.html">Amazon FSx</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2339.html">AWS Snowball</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2340.html">AWS Snowball Edge</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2341.html">AWS Snowmobile</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2342.html">AWS Thinkbox Draft</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2343.html">CloudEndure Migration</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2344.html">Infrequent Access Storage Class</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2345.html">Standard Storage Class</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2346.html">Temporary security credential</a></li>
+<li><img src="../../../../../../images/82.png" alt="Artifact"/> <a href="EA2347.html">Thermostat</a></li>
+</ul>
+
+					</td>
+					<td class="contentcell"><div class="PageBody">
+	<div class="diagram_image"> 
+<img src="EA2335.png" usemap="#EA2335" width="502" height="546" border="0" />
+
+<MAP NAME="EA2335">
+<area shape="rect" coords="696,2556,1080,2940" href="EA2347.html" target="_self">
+<area shape="rect" coords="72,2556,456,2940" href="EA2346.html" target="_self">
+<area shape="rect" coords="1944,1932,2328,2316" href="EA2345.html" target="_self">
+<area shape="rect" coords="72,1932,456,2316" href="EA2344.html" target="_self">
+<area shape="rect" coords="72,1308,456,1692" href="EA2343.html" target="_self">
+<area shape="rect" coords="1944,60,2328,444" href="EA2341.html" target="_self">
+<area shape="rect" coords="1320,60,1704,444" href="EA2340.html" target="_self">
+<area shape="rect" coords="696,60,1080,444" href="EA2339.html" target="_self">
+<area shape="rect" coords="2568,684,2952,1068" href="EA2338.html" target="_self">
+<area shape="rect" coords="2568,1932,2952,2316" href="../../EA9/EA2/EA1781.html" target="_self">
+<area shape="rect" coords="1320,1932,1704,2316" href="../../EA9/EA2/EA1780.html" target="_self">
+<area shape="rect" coords="2568,1308,2952,1692" href="../../EA9/EA2/EA1778.html" target="_self">
+<area shape="rect" coords="1944,1308,2328,1692" href="../../EA9/EA2/EA1777.html" target="_self">
+<area shape="rect" coords="1320,1308,1704,1692" href="../../EA9/EA2/EA1776.html" target="_self">
+<area shape="rect" coords="696,1308,1080,1692" href="../../EA9/EA2/EA1775.html" target="_self">
+<area shape="rect" coords="696,1932,1080,2316" href="../../EA9/EA2/EA1779.html" target="_self">
+<area shape="rect" coords="2568,60,2952,444" href="EA2342.html" target="_self">
+<area shape="rect" coords="72,60,456,444" href="../../EA9/EA1/EA1773.html" target="_self">
+<area shape="rect" coords="696,684,1080,1068" href="../../EA9/EA1/EA1770.html" target="_self">
+<area shape="rect" coords="72,684,456,1068" href="EA2337.html" target="_self">
+<area shape="rect" coords="1944,684,2328,1068" href="../../EA9/EA1/EA1772.html" target="_self">
+<area shape="rect" coords="1320,684,1704,1068" href="../../EA9/EA1/EA1771.html" target="_self">
+</MAP>
+ </div>
+	<div class="ObjectTitle">Release 5 : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">29/01/2021 10:51:02</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">01/02/2021 12:17:43</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchProjectProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="proj" /></button>Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><button onclick="switchAdvancedProperties()"><img src="../../../../../../images/plus03.gif" align="absmiddle" id="adv" /></button>Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{602547D2-D33F-4009-898F-D76F327C681B}</td>
+		</tr>
+	</table>
+	
+</div>
+
+ </td>
+				</tr>
+			</tbody>
+		</table>
+		
+</div>
+</body>
+</html>
+

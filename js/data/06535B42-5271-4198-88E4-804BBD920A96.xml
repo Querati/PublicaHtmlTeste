@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.18:1", "", "Management and Governance", "EARoot/EA1/EA3/EA4/EA18/EA2003.html", "175.png", "50", "0", "", "Logical diagram0","{CB8A0033-50DE-4254-AECA-FF108EEAA533}");
-tocTab[tocTab.length] = new Array("0.1.3.4.18:2", "", "«Image» Management and Governance Category", "EARoot/EA1/EA3/EA4/EA18/EA2006.html", "82.png", "E579", "0", "", "Artifact0","{B3155A27-33B7-4bdf-901C-41DC2EA78493}");
-tocTab[tocTab.length] = new Array("0.1.3.4.18.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA18/EA1/EA2009.html", "4.png", "", "", "{C6536FC8-51DE-4e56-9BF7-666B95A4CC7B}", "Package");
-tocTab[tocTab.length] = new Array("0.1.3.4.18.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA18/EA2/EA2031.html", "4.png", "", "", "{9AF6097A-BA5D-41ff-B262-EFE86B6CA405}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.18:1", "", "Management and Governance", "EARoot/EA1/EA3/EA4/EA18/EA2002.html", "175.png", "50", "0", "", "Logical diagram0","{CB8A0033-50DE-4254-AECA-FF108EEAA533}");
+tocTab[tocTab.length] = new Array("0.1.3.4.18:2", "", "Management and Governance Category", "EARoot/EA1/EA3/EA4/EA18/EA2005.html", "82.png", "E579", "0", "", "Artifact0","{B3155A27-33B7-4bdf-901C-41DC2EA78493}");
+tocTab[tocTab.length] = new Array("0.1.3.4.18.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA18/EA1/EA2008.html", "4.png", "", "", "{C6536FC8-51DE-4e56-9BF7-666B95A4CC7B}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.18.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA18/EA2/EA2030.html", "4.png", "", "", "{9AF6097A-BA5D-41ff-B262-EFE86B6CA405}", "Package");

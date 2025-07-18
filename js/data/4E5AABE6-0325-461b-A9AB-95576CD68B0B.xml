@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.5:1", "", "Azure Ecosystem", "EARoot/EA1/EA3/EA3/EA5/EA784.html", "175.png", "94", "0", "", "Logical diagram0","{E0614EDE-6E42-472e-A0F7-158D125A0AFF}");
-tocTab[tocTab.length] = new Array("0.1.3.3.5:2", "", "«Image» Applens", "EARoot/EA1/EA3/EA3/EA5/EA787.html", "82.png", "E1266", "0", "", "Artifact0","{F382395B-EACE-495b-AA87-441F0C891337}");
-tocTab[tocTab.length] = new Array("0.1.3.3.5:3", "", "«Image» Azure Hybrid Center", "EARoot/EA1/EA3/EA3/EA5/EA788.html", "82.png", "E1265", "0", "", "Artifact0","{D3093E3A-0B77-43e7-9741-9D3E9AECCD29}");
-tocTab[tocTab.length] = new Array("0.1.3.3.5:4", "", "«Image» Collaborative Service", "EARoot/EA1/EA3/EA3/EA5/EA789.html", "82.png", "E1267", "0", "", "Artifact0","{F5155910-8AEB-4494-ABE5-EDBEEB3D61B6}");
+tocTab[tocTab.length] = new Array("0.1.3.3.5:1", "", "Azure Ecosystem", "EARoot/EA1/EA3/EA3/EA5/EA783.html", "175.png", "94", "0", "", "Logical diagram0","{E0614EDE-6E42-472e-A0F7-158D125A0AFF}");
+tocTab[tocTab.length] = new Array("0.1.3.3.5:2", "", "Applens", "EARoot/EA1/EA3/EA3/EA5/EA786.html", "82.png", "E1266", "0", "", "Artifact0","{F382395B-EACE-495b-AA87-441F0C891337}");
+tocTab[tocTab.length] = new Array("0.1.3.3.5:3", "", "Azure Hybrid Center", "EARoot/EA1/EA3/EA3/EA5/EA787.html", "82.png", "E1265", "0", "", "Artifact0","{D3093E3A-0B77-43e7-9741-9D3E9AECCD29}");
+tocTab[tocTab.length] = new Array("0.1.3.3.5:4", "", "Collaborative Service", "EARoot/EA1/EA3/EA3/EA5/EA788.html", "82.png", "E1267", "0", "", "Artifact0","{F5155910-8AEB-4494-ABE5-EDBEEB3D61B6}");

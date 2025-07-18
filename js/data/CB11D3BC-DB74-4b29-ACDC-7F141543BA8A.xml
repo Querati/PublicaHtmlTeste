@@ -1,8 +1,8 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.9:1", "", "Container", "EARoot/EA1/EA3/EA3/EA9/EA850.html", "175.png", "98", "0", "", "Logical diagram0","{130E7DF5-7DE1-4cf7-BCC7-12687176374B}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:2", "", "«Image» App Services", "EARoot/EA1/EA3/EA3/EA9/EA853.html", "82.png", "E1324", "0", "", "Artifact0","{B42D9C1C-D6CC-4c1a-91BF-F47F15F6B834}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:3", "", "«Image» Azure Red Hat OpenShift", "EARoot/EA1/EA3/EA3/EA9/EA854.html", "82.png", "E1320", "0", "", "Artifact0","{64B964E8-0869-4221-8C29-8C9BA3990FED}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:4", "", "«Image» Batch Accounts", "EARoot/EA1/EA3/EA3/EA9/EA855.html", "82.png", "E1319", "0", "", "Artifact0","{0BA705F0-30BE-4687-86C3-A7F6A13054D0}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:5", "", "«Image» Container Instances", "EARoot/EA1/EA3/EA3/EA9/EA856.html", "82.png", "E1322", "0", "", "Artifact0","{A12C7490-5E81-40b2-B7B3-FA1AA1FB9F72}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:6", "", "«Image» Container Registries", "EARoot/EA1/EA3/EA3/EA9/EA857.html", "82.png", "E1321", "0", "", "Artifact0","{73ECD308-EAED-4a85-ABC5-99E84F726B7D}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:7", "", "«Image» Kubernetes Services", "EARoot/EA1/EA3/EA3/EA9/EA858.html", "82.png", "E1325", "0", "", "Artifact0","{B46831E4-AB1F-420e-B933-E3046FB87594}");
-tocTab[tocTab.length] = new Array("0.1.3.3.9:8", "", "«Image» Service Fabric Clusters", "EARoot/EA1/EA3/EA3/EA9/EA859.html", "82.png", "E1323", "0", "", "Artifact0","{AC625E98-7E0A-4e4e-B4A6-03BB5CB48BB4}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:1", "", "Container", "EARoot/EA1/EA3/EA3/EA9/EA849.html", "175.png", "98", "0", "", "Logical diagram0","{130E7DF5-7DE1-4cf7-BCC7-12687176374B}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:2", "", "App Services", "EARoot/EA1/EA3/EA3/EA9/EA852.html", "82.png", "E1324", "0", "", "Artifact0","{B42D9C1C-D6CC-4c1a-91BF-F47F15F6B834}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:3", "", "Azure Red Hat OpenShift", "EARoot/EA1/EA3/EA3/EA9/EA853.html", "82.png", "E1320", "0", "", "Artifact0","{64B964E8-0869-4221-8C29-8C9BA3990FED}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:4", "", "Batch Accounts", "EARoot/EA1/EA3/EA3/EA9/EA854.html", "82.png", "E1319", "0", "", "Artifact0","{0BA705F0-30BE-4687-86C3-A7F6A13054D0}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:5", "", "Container Instances", "EARoot/EA1/EA3/EA3/EA9/EA855.html", "82.png", "E1322", "0", "", "Artifact0","{A12C7490-5E81-40b2-B7B3-FA1AA1FB9F72}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:6", "", "Container Registries", "EARoot/EA1/EA3/EA3/EA9/EA856.html", "82.png", "E1321", "0", "", "Artifact0","{73ECD308-EAED-4a85-ABC5-99E84F726B7D}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:7", "", "Kubernetes Services", "EARoot/EA1/EA3/EA3/EA9/EA857.html", "82.png", "E1325", "0", "", "Artifact0","{B46831E4-AB1F-420e-B933-E3046FB87594}");
+tocTab[tocTab.length] = new Array("0.1.3.3.9:8", "", "Service Fabric Clusters", "EARoot/EA1/EA3/EA3/EA9/EA858.html", "82.png", "E1323", "0", "", "Artifact0","{AC625E98-7E0A-4e4e-B4A6-03BB5CB48BB4}");
