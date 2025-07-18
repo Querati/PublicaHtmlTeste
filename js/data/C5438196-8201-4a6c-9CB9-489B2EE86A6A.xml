@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.20.2:1", "", "Agent", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2097.html", "82.png", "E662", "0", "", "Artifact0","{C3651B11-CAFD-416e-8295-3B522F35AF68}");
-tocTab[tocTab.length] = new Array("0.1.3.4.20.2:2", "", "AWS FTP", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2098.html", "82.png", "E661", "0", "", "Artifact0","{B13AE3F4-0552-4cc9-9737-79307CE03EE1}");
-tocTab[tocTab.length] = new Array("0.1.3.4.20.2:3", "", "AWS FTPS", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2099.html", "82.png", "E660", "0", "", "Artifact0","{24281554-2F7E-4676-B36E-121F4C0E6ECC}");
-tocTab[tocTab.length] = new Array("0.1.3.4.20.2:4", "", "AWS SFTP", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2100.html", "82.png", "E663", "0", "", "Artifact0","{ECE632BA-6A2F-4333-AEB3-44A8DD405091}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.2:1", "", "«Image» Agent", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2097.html", "82.png", "E662", "0", "", "Artifact0","{C3651B11-CAFD-416e-8295-3B522F35AF68}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.2:2", "", "«Image» AWS FTP", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2098.html", "82.png", "E661", "0", "", "Artifact0","{B13AE3F4-0552-4cc9-9737-79307CE03EE1}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.2:3", "", "«Image» AWS FTPS", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2099.html", "82.png", "E660", "0", "", "Artifact0","{24281554-2F7E-4676-B36E-121F4C0E6ECC}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.2:4", "", "«Image» AWS SFTP", "EARoot/EA1/EA3/EA4/EA20/EA2/EA2100.html", "82.png", "E663", "0", "", "Artifact0","{ECE632BA-6A2F-4333-AEB3-44A8DD405091}");

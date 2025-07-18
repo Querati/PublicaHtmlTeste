@@ -1,4 +1,4 @@
-tocTab[tocTab.length] = new Array("0.1.3.4.10.1:1", "", "AWS IQ", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1788.html", "82.png", "E405", "0", "", "Artifact0","{B898FB95-CA3C-444e-A09D-B60EA4AEFDB4}");
-tocTab[tocTab.length] = new Array("0.1.3.4.10.1:2", "", "AWS Managed Services", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1789.html", "82.png", "E404", "0", "", "Artifact0","{AF08E7F0-7E94-4ed0-A468-2E8D575A2367}");
-tocTab[tocTab.length] = new Array("0.1.3.4.10.1:3", "", "AWS Professional Services", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1790.html", "82.png", "E403", "0", "", "Artifact0","{95FD4C35-EBD9-4ecb-9554-D3606DF31D88}");
-tocTab[tocTab.length] = new Array("0.1.3.4.10.1:4", "", "AWS Support", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1791.html", "82.png", "E402", "0", "", "Artifact0","{449302CC-4ACE-46c2-B5BA-0E414979E56A}");
+tocTab[tocTab.length] = new Array("0.1.3.4.10.1:1", "", "«Image» AWS IQ", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1788.html", "82.png", "E405", "0", "", "Artifact0","{B898FB95-CA3C-444e-A09D-B60EA4AEFDB4}");
+tocTab[tocTab.length] = new Array("0.1.3.4.10.1:2", "", "«Image» AWS Managed Services", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1789.html", "82.png", "E404", "0", "", "Artifact0","{AF08E7F0-7E94-4ed0-A468-2E8D575A2367}");
+tocTab[tocTab.length] = new Array("0.1.3.4.10.1:3", "", "«Image» AWS Professional Services", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1790.html", "82.png", "E403", "0", "", "Artifact0","{95FD4C35-EBD9-4ecb-9554-D3606DF31D88}");
+tocTab[tocTab.length] = new Array("0.1.3.4.10.1:4", "", "«Image» AWS Support", "EARoot/EA1/EA3/EA4/EA10/EA1/EA1791.html", "82.png", "E402", "0", "", "Artifact0","{449302CC-4ACE-46c2-B5BA-0E414979E56A}");
