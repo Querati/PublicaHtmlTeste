@@ -1,9 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:1", "", "VM", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA592.html", "175.png", "75", "0", "", "Logical diagram0","{AF550F87-D021-4513-BD57-817260256E04}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:2", "", "«Image» Non-azure-machine", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA595.html", "82.png", "E1139", "0", "", "Artifact0","{6DD9907C-17B3-4f9b-8F4E-AB4B8B3A1B82}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:3", "", "«Image» VM", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA596.html", "82.png", "E1138", "0", "", "Artifact0","{5C7546E6-D067-442c-801A-2A3D6745A4BB}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:4", "", "«Image» VM (Classic)", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA597.html", "82.png", "E1135", "0", "", "Artifact0","{109539DE-FCBC-43b7-A97E-44356458398B}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:5", "", "«Image» VM-Linux", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA598.html", "82.png", "E1141", "0", "", "Artifact0","{BA5AA0B9-ACBE-407f-97F5-E58BE230D41C}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:6", "", "«Image» VM-Linux-non-azure", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA599.html", "82.png", "E1140", "0", "", "Artifact0","{8B119D3B-15BF-4549-950E-519D20902695}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:7", "", "«Image» VM-non-azure", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA600.html", "82.png", "E1137", "0", "", "Artifact0","{4393844E-867C-43a4-9294-F32D1414497F}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:8", "", "«Image» VM-windows", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA601.html", "82.png", "E1142", "0", "", "Artifact0","{E5019824-8BE2-4130-873E-7547E2234C74}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.6.1:9", "", "«Image» VM-windows-non-azure", "EARoot/EA1/EA3/EA3/EA1/EA6/EA1/EA602.html", "82.png", "E1136", "0", "", "Artifact0","{1CEE9F40-BB12-4fc1-ACDB-3365749CA83E}");

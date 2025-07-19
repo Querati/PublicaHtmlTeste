@@ -1,6 +1,0 @@
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:1", "", "Other", "EARoot/EA1/EA3/EA3/EA1/EA18/EA690.html", "175.png", "87", "0", "", "Logical diagram0","{40620521-E286-4f9b-9B14-F6CC0CACDEB8}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:2", "", "«Image» CloudSimple Nodes", "EARoot/EA1/EA3/EA3/EA1/EA18/EA693.html", "82.png", "E1194", "0", "", "Artifact0","{65594EB4-84DA-4bd2-A5CA-CF9A1A47B114}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:3", "", "«Image» CloudSimple Services", "EARoot/EA1/EA3/EA3/EA1/EA18/EA694.html", "82.png", "E1195", "0", "", "Artifact0","{AC64354D-ABB4-4af9-9549-B85B87A217A7}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:4", "", "«Image» Controllers", "EARoot/EA1/EA3/EA3/EA1/EA18/EA695.html", "82.png", "E1196", "0", "", "Artifact0","{CACF7557-B05E-4450-AC97-5DFD1A482EAB}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:5", "", "«Image» Customer Lockbox", "EARoot/EA1/EA3/EA3/EA1/EA18/EA696.html", "82.png", "E1197", "0", "", "Artifact0","{D224EE31-9EDA-4c16-9BA2-8394B39DFD1E}");
-tocTab[tocTab.length] = new Array("0.1.3.3.1.18:6", "", "«Image» Web App Firewall", "EARoot/EA1/EA3/EA3/EA1/EA18/EA697.html", "82.png", "E1193", "0", "", "Artifact0","{5BCCE74B-936E-47f2-83DA-63448750E9E5}");
