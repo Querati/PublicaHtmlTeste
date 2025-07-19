@@ -1,0 +1,17 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:1", "", "_Companies", "EARoot/EA1/EA3/EA3/EA1/EA1/EA361.htm", "175.png", "35", "0", "", "Logical diagram0","{E32886D8-A967-452b-A68B-0009EBAAD94E}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:2", "", "«Image» Azure Cache Redis Product icon", "EARoot/EA1/EA3/EA3/EA1/EA1/EA364.htm", "82.png", "E271", "0", "", "Artifact0","{9800E3B1-9D88-4495-AFCE-3768C5FF35D6}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:3", "", "«Image» Azure Databricks", "EARoot/EA1/EA3/EA3/EA1/EA1/EA365.htm", "82.png", "E265", "0", "", "Artifact0","{334CD1D5-AA54-48cf-BCE4-9BB230EE9DC9}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:4", "", "«Image» Azure HDInsight_COLOR", "EARoot/EA1/EA3/EA3/EA1/EA1/EA366.htm", "82.png", "E269", "0", "", "Artifact0","{8D056DBE-DE07-4563-A5AD-5BDF50A23602}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:5", "", "«Image» Azure HockeyApp_COLOR", "EARoot/EA1/EA3/EA3/EA1/EA1/EA367.htm", "82.png", "E264", "0", "", "Artifact0","{31BB5BBE-81D2-4b1d-813A-B878C56BC849}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:6", "", "«Image» Azure OpenShift", "EARoot/EA1/EA3/EA3/EA1/EA1/EA368.htm", "82.png", "E268", "0", "", "Artifact0","{4ADD745A-5A5B-4774-94D6-43ADFB11EB4C}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:7", "", "«Image» Cloud_Cycle", "EARoot/EA1/EA3/EA3/EA1/EA1/EA369.htm", "82.png", "E266", "0", "", "Artifact0","{3C26C01B-A337-44b0-894E-91BB41034FCE}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:8", "", "«Image» HD-Insight", "EARoot/EA1/EA3/EA3/EA1/EA1/EA370.htm", "82.png", "E275", "0", "", "Artifact0","{B35B332A-4C95-4e78-8D35-D8128539F7E0}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:9", "", "«Image» HockeyApp", "EARoot/EA1/EA3/EA3/EA1/EA1/EA371.htm", "82.png", "E278", "0", "", "Artifact0","{D0A48A83-C094-422b-BCFC-6A63345EA322}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:10", "", "«Image» Kubernetes", "EARoot/EA1/EA3/EA3/EA1/EA1/EA372.htm", "82.png", "E273", "0", "", "Artifact0","{A3B4CA2B-8FD6-425c-8FAE-8E4562D372F2}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:11", "", "«Image» logo_pluralsight_mono", "EARoot/EA1/EA3/EA3/EA1/EA1/EA373.htm", "82.png", "E277", "0", "", "Artifact0","{C2292AF3-3A57-4fca-86B3-DF0E1630C3EE}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:12", "", "«Image» logo_pluralsight_twotone", "EARoot/EA1/EA3/EA3/EA1/EA1/EA374.htm", "82.png", "E274", "0", "", "Artifact0","{A90B4476-E744-44b7-8239-3958A60938EA}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:13", "", "«Image» Logo-DC-OS", "EARoot/EA1/EA3/EA3/EA1/EA1/EA375.htm", "82.png", "E267", "0", "", "Artifact0","{42C44513-5741-45f7-AC71-5217D207CC50}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:14", "", "«Image» Logo-docker", "EARoot/EA1/EA3/EA3/EA1/EA1/EA376.htm", "82.png", "E272", "0", "", "Artifact0","{9B250235-8C54-4eb7-A6D2-59E25C0AECD9}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:15", "", "«Image» StackOverflow", "EARoot/EA1/EA3/EA3/EA1/EA1/EA377.htm", "82.png", "E263", "0", "", "Artifact0","{187E8494-792F-4786-98A9-AC11971F4533}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:16", "", "«Image» WebAppUmbraco", "EARoot/EA1/EA3/EA3/EA1/EA1/EA378.htm", "82.png", "E276", "0", "", "Artifact0","{BE04EA88-AAE6-4a65-A377-C5A9B05D3037}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.1:17", "", "«Image» WebAppWordPress", "EARoot/EA1/EA3/EA3/EA1/EA1/EA379.htm", "82.png", "E270", "0", "", "Artifact0","{8EB48863-5ABD-4d48-A915-205A71C23430}");

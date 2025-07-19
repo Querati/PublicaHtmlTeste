@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:1", "", "«Image» AWS Application Discovery Service", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2090.htm", "82.png", "E1730", "0", "", "Artifact0","{8746A82A-0CAE-4f2d-A795-138E309BE9C1}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:2", "", "«Image» AWS Database Migration Service", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2091.htm", "82.png", "E1729", "0", "", "Artifact0","{509FA6C6-8A05-4f56-9E98-C5269ABE0C21}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:3", "", "«Image» AWS DataSync", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2092.htm", "82.png", "E1731", "0", "", "Artifact0","{B8A50284-EEDE-4a50-BA15-2B151C9DA703}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:4", "", "«Image» AWS Migration Hub", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2093.htm", "82.png", "E1726", "0", "", "Artifact0","{3991E739-B87A-4aef-A536-84F02D01E6FB}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:5", "", "«Image» AWS Server Migration Service", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2094.htm", "82.png", "E1728", "0", "", "Artifact0","{44F3C879-5F3A-4254-A79D-4C59164A0BA8}");
+tocTab[tocTab.length] = new Array("0.1.3.4.20.1:6", "", "«Image» AWS Transfer Family", "EARoot/EA1/EA3/EA4/EA20/EA1/EA2095.htm", "82.png", "E1727", "0", "", "Artifact0","{3A17DAE5-3BBA-454a-8595-1B271D880A46}");

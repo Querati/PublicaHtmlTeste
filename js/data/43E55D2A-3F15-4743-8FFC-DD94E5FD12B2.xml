@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.1.3.4.17:1", "", "Machine Learning", "EARoot/EA1/EA3/EA4/EA17/EA1965.htm", "175.png", "108", "0", "", "Logical diagram0","{637AE904-9A76-4aae-A42B-09C1CF67926E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17:2", "", "«Image» Machine Learning Category", "EARoot/EA1/EA3/EA4/EA17/EA1968.htm", "82.png", "E1619", "0", "", "Artifact0","{21C848E3-EF76-485a-A751-A4B84D4F8C7E}");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.1", "1", "Products", "EARoot/EA1/EA3/EA4/EA17/EA1/EA1971.htm", "4.png", "", "", "{B438B8EF-6290-4b94-96BA-8E1B08A08D74}", "Package");
+tocTab[tocTab.length] = new Array("0.1.3.4.17.2", "1", "Resources", "EARoot/EA1/EA3/EA4/EA17/EA2/EA1996.htm", "4.png", "", "", "{35233A62-C5F8-4d26-961E-878D210C7B8A}", "Package");

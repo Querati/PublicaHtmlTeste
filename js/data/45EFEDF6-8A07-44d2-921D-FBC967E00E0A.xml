@@ -1,0 +1,2 @@
+tocTab[tocTab.length] = new Array("0.1.1.6.1.1.1:1", "", "Infraestrutura Base", "EARoot/EA1/EA1/EA6/EA1/EA1/EA1/EA111.htm", "175.png", "24", "0", "", "Logical diagram0","{25B09A1D-4F67-4eac-9003-B06334880C09}");
+tocTab[tocTab.length] = new Array("0.1.1.6.1.1.1.1", "1", "Amazon VPC", "EARoot/EA1/EA1/EA6/EA1/EA1/EA1/EA1/EA117.htm", "4.png", "", "", "{01B63A4C-288C-4242-8F3F-F274D0E611D4}", "Package");

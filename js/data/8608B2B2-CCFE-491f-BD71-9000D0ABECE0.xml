@@ -1,0 +1,6 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:1", "", "DevOps", "EARoot/EA1/EA3/EA3/EA1/EA8/EA617.htm", "175.png", "46", "0", "", "Logical diagram0","{681F3079-8109-46fe-AF90-90CAB54FE70A}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:2", "", "«Image» Azure Artifacts", "EARoot/EA1/EA3/EA3/EA1/EA8/EA620.htm", "82.png", "E488", "0", "", "Artifact0","{90FB57B0-5741-4e09-AFA7-64868843A763}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:3", "", "«Image» Azure Boards", "EARoot/EA1/EA3/EA3/EA1/EA8/EA621.htm", "82.png", "E485", "0", "", "Artifact0","{0776889E-AAAF-47e8-8561-F523CCA0F8C3}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:4", "", "«Image» Azure Pipelines", "EARoot/EA1/EA3/EA3/EA1/EA8/EA622.htm", "82.png", "E487", "0", "", "Artifact0","{2DFF239E-4B93-49af-B6E8-001F303FC8FB}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:5", "", "«Image» Azure Repos", "EARoot/EA1/EA3/EA3/EA1/EA8/EA623.htm", "82.png", "E486", "0", "", "Artifact0","{1DB1B21C-D8D7-471c-B717-C7A3255273E3}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.8:6", "", "«Image» Azure Test Plans", "EARoot/EA1/EA3/EA3/EA1/EA8/EA624.htm", "82.png", "E489", "0", "", "Artifact0","{9E94F057-E5B3-40d2-B9E1-E5856EB78B98}");

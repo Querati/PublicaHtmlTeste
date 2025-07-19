@@ -1,0 +1,12 @@
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:1", "", "Databases", "EARoot/EA1/EA3/EA3/EA1/EA7/EA603.htm", "175.png", "45", "0", "", "Logical diagram0","{B591A9FA-F5E2-453f-8027-86CB883FAB65}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:2", "", "«Image» Azure Cache plus Redis", "EARoot/EA1/EA3/EA3/EA1/EA7/EA606.htm", "82.png", "E483", "0", "", "Artifact0","{AFF76272-4BD1-4df3-ABC5-F5AF354A1D74}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:3", "", "«Image» Azure Database (Generic)", "EARoot/EA1/EA3/EA3/EA1/EA7/EA607.htm", "82.png", "E479", "0", "", "Artifact0","{70A61B7F-C1E3-4b0a-82CA-8E82275560A5}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:4", "", "«Image» Azure Database for MariaDB servers", "EARoot/EA1/EA3/EA3/EA1/EA7/EA608.htm", "82.png", "E477", "0", "", "Artifact0","{47D25AB5-4C9C-4dcd-8110-78E42DE3123B}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:5", "", "«Image» Azure Database for MySQL servers", "EARoot/EA1/EA3/EA3/EA1/EA7/EA609.htm", "82.png", "E484", "0", "", "Artifact0","{F294F689-C5BC-4632-845C-989024C29B4E}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:6", "", "«Image» Azure Database for PostgreSQL servers", "EARoot/EA1/EA3/EA3/EA1/EA7/EA610.htm", "82.png", "E482", "0", "", "Artifact0","{AC784231-FE94-4218-AB17-70157C14832B}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:7", "", "«Image» Azure SQL DataWarehouse", "EARoot/EA1/EA3/EA3/EA1/EA7/EA611.htm", "82.png", "E475", "0", "", "Artifact0","{2697E519-07D7-4a8c-AFA0-1A0F7F32167C}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:8", "", "«Image» Blob Storage", "EARoot/EA1/EA3/EA3/EA1/EA7/EA612.htm", "82.png", "E474", "0", "", "Artifact0","{25B95150-1126-431f-9FB5-3470CF258881}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:9", "", "«Image» Data Lake", "EARoot/EA1/EA3/EA3/EA1/EA7/EA613.htm", "82.png", "E478", "0", "", "Artifact0","{5BAFDF63-B21E-42f7-9ABB-3968AE1D9795}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:10", "", "«Image» Elastic Database Pools", "EARoot/EA1/EA3/EA3/EA1/EA7/EA614.htm", "82.png", "E480", "0", "", "Artifact0","{7F3114BF-441E-4dc9-AD15-B54992DBB955}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:11", "", "«Image» SQL Server stretch Databases", "EARoot/EA1/EA3/EA3/EA1/EA7/EA615.htm", "82.png", "E481", "0", "", "Artifact0","{8A9A52F5-B9FE-45db-AAAC-265FFAA5DED0}");
+tocTab[tocTab.length] = new Array("0.1.3.3.1.7:12", "", "«Image» Virtual Datacenter", "EARoot/EA1/EA3/EA3/EA1/EA7/EA616.htm", "82.png", "E476", "0", "", "Artifact0","{317A1F98-D9A4-4648-B613-42A287AE7BA7}");

@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Machine Learning</title>
+<link href="../../../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA1966.png" usemap="#EA1966" border="0" />
+
+<MAP NAME="EA1966">
+<area shape="rect" coords="3414,24,3478,88" href="./EA1/EA1995.htm" target="_self">
+<area shape="rect" coords="3302,24,3366,88" href="./EA1/EA1973.htm" target="_self">
+<area shape="rect" coords="3185,24,3249,88" href="./EA1/EA1978.htm" target="_self">
+<area shape="rect" coords="3071,24,3135,88" href="./EA1/EA1977.htm" target="_self">
+<area shape="rect" coords="2954,24,3018,88" href="./EA1/EA1972.htm" target="_self">
+<area shape="rect" coords="2832,24,2896,88" href="./EA1/EA1991.htm" target="_self">
+<area shape="rect" coords="1073,284,1137,348" href="./EA2/EA1998.htm" target="_self">
+<area shape="rect" coords="1073,166,1137,230" href="./EA2/EA1997.htm" target="_self">
+<area shape="rect" coords="1257,348,1321,412" href="./EA2/EA2001.htm" target="_self">
+<area shape="rect" coords="1257,166,1321,230" href="./EA2/EA2000.htm" target="_self">
+<area shape="rect" coords="1257,256,1321,320" href="./EA2/EA1999.htm" target="_self">
+<area shape="rect" coords="2710,24,2774,88" href="./EA1/EA1994.htm" target="_self">
+<area shape="rect" coords="2579,24,2643,88" href="./EA1/EA1988.htm" target="_self">
+<area shape="rect" coords="2449,24,2513,88" href="./EA1/EA1993.htm" target="_self">
+<area shape="rect" coords="2312,24,2376,88" href="./EA1/EA1992.htm" target="_self">
+<area shape="rect" coords="2173,24,2237,88" href="./EA1/EA1990.htm" target="_self">
+<area shape="rect" coords="2037,24,2101,88" href="./EA1/EA1989.htm" target="_self">
+<area shape="rect" coords="1906,24,1970,88" href="./EA1/EA1987.htm" target="_self">
+<area shape="rect" coords="1776,24,1840,88" href="./EA1/EA1986.htm" target="_self">
+<area shape="rect" coords="1633,24,1697,88" href="./EA1/EA1985.htm" target="_self">
+<area shape="rect" coords="1473,24,1537,88" href="./EA1/EA1984.htm" target="_self">
+<area shape="rect" coords="1255,23,1319,87" href="./EA1/EA1983.htm" target="_self">
+<area shape="rect" coords="1073,23,1137,87" href="./EA1/EA1982.htm" target="_self">
+<area shape="rect" coords="949,23,1013,87" href="./EA1/EA1981.htm" target="_self">
+<area shape="rect" coords="813,23,877,87" href="./EA1/EA1980.htm" target="_self">
+<area shape="rect" coords="541,23,605,87" href="./EA1/EA1976.htm" target="_self">
+<area shape="rect" coords="384,23,448,87" href="./EA1/EA1975.htm" target="_self">
+<area shape="rect" coords="675,23,739,87" href="./EA1/EA1979.htm" target="_self">
+<area shape="rect" coords="241,23,305,87" href="./EA1/EA1974.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Machine Learning : Class diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">28/11/2018 10:10:00</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">29/01/2021 13:56:40</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">System</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{637AE904-9A76-4aae-A42B-09C1CF67926E}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
